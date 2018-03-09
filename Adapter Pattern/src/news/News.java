@@ -21,12 +21,9 @@ package news;
 public class News {
     public void printAthlete(IAthlete athlete) {
         String athleteToString = "Name: " + athlete.getName() +
-                "Sport: " + athlete.getSport() +
-                "Average Score: " + athlete.getAvgScore() +
-                "Age: " + athlete.getAge() +
-                "Height: " + athlete.getHeight() +
-                "Team: " + athlete.getTeam() +
-                "Position: " + athlete.getPosition() +
-                "Length of Time in Sport: " + athlete.getCareerLength();
+                "\nSport: " + athlete.getSport() +
+                "\nAverage Score: " + athlete.getAvgScore() +
+                "\nAge: " + athlete.getAge();
+        System.out.println(athleteToString);
     }
 }
